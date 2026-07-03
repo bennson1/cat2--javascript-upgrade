@@ -501,3 +501,30 @@ footer strong {
         min-width: 200px;
     }
 }
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode header,
+.dark-mode footer {
+    background-color: #111;
+}
+
+.dark-mode .menu-card,
+.dark-mode .info-card,
+.dark-mode .stat,
+.dark-mode .wishlist,
+.dark-mode .about,
+.dark-mode .contact {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+    background-color: #444;
+    color: white;
+    border: 1px solid #666;
+}
