@@ -528,3 +528,29 @@ footer strong {
     color: white;
     border: 1px solid #666;
 }
+/* ===============================
+   Banner Toggle
+================================= */
+
+.hero-image {
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.show-caption {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+
+    background: rgba(0,0,0,0.75);
+    color: white;
+
+    padding: 20px;
+
+    border-radius: 8px;
+}

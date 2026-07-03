@@ -133,3 +133,17 @@ themeButton.addEventListener("click", function () {
     }
 
 });
+// ===============================
+// Step 5 - Banner Click Toggle
+// ===============================
+
+const bannerImage = document.getElementById("bannerImage");
+const bannerCaption = document.getElementById("bannerCaption");
+
+bannerImage.addEventListener("click", function () {
+
+    bannerCaption.classList.toggle("hidden");
+
+    bannerCaption.classList.toggle("show-caption");
+
+});
